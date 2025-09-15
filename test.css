@@ -1,0 +1,100 @@
+* {
+    font-family: 'Brush Script'; 
+ }
+
+ ::-webkit-scrollbar{
+  display: none;
+ }
+
+ #header{
+    background-image:url("./images/20240626_111238.jpg");
+    height: 888px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+
+ h1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    top: 280px;
+    width: 100%;
+    font-size: 4rem;
+ }
+
+ img {
+   height: 600px;
+   width: 900px;
+   padding-top: 30px;
+ } 
+
+
+ body {
+   background-color: black;
+ }
+
+ p{
+   color: white;
+   font-size:  25px;
+   position: center;
+ }
+
+h2{
+   color: white;
+   font-size: 50px;
+   text-align: center;
+}
+
+ .mud_pool{
+   display: flex;
+   gap: 10px;
+   padding: 5px;
+ }
+
+ .carving{
+  display: flex;
+ }
+
+ #carving2{
+  width: 477px;
+  height: auto;
+
+}
+
+#carving{
+  width: 400px;
+  height: auto;
+  padding-right: 30px;
+}
+
+.flax{
+  display: flex;
+}
+
+#flax1{
+  display: block;
+  width: 587px;
+  height: auto;
+  padding: 50px; 
+}
+
+.navbar{
+  padding: 0;
+  background-color: black;
+  margin: 0%;
+  position: sticky;
+  display: flex;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+  padding: 14px 16px;
+}
+
+.navbar  a:hover{
+  background-color: #222222;
+}
